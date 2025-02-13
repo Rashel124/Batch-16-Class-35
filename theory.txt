@@ -1,0 +1,42 @@
+
+
+
+80-100 = A+
+70-79  = A
+60-69  = A-
+50-59  = B
+40-49  = C
+33-39  = D
+0-32   = F 
+
+
+Logical Operator..............
+
+||= or;
+
+&&= and;
+
+rahim || karim || rafiq => rahim or karim 
+
+rahim && karim rafiq => rahim and karim and rafiq 
+
+
+
+
+number1, number2, number3
+
+let number1;
+let number2;
+let number3;
+
+if (number1 > number2 && number1 > number3){
+console.log("The maximum number is number1");
+}
+
+else if(number2 > number3 && number2 > number1){
+console.log("The maximum number is number2");
+}
+
+else if(number3 > number1 && number 3> number2){
+    console.log("The maximum number is number3");
+}
